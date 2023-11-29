@@ -10,4 +10,4 @@ RUN git config --global http.lowSpeedLimit 0 && \
     git config --global http.lowSpeedTime 999999 && \
     git clone https://github.com/dkatsios/educative-keras_image_classifier.git .
 
-RUN python3 -m pip install requirements.txt
+RUN python3 -m pip install -r requirements.txt
