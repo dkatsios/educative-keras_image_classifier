@@ -10,5 +10,3 @@ RUN git clone https://github.com/dkatsios/educative-keras_image_classifier.git .
 
 RUN python3 -m pip install --upgrade pip && \
     python3 -m pip install --no-cache-dir -r requirements.txt
-
-RUN chmod +x /app/main_script.sh
